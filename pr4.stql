@@ -1,0 +1,3 @@
+SELECT foo AS a, bar AS b
+WHERE a$object IS b$subject AND b$object IS a$subject AS c
+PRINT c;

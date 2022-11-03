@@ -1,0 +1,6 @@
+@base <http://www.cw.org/> .
+<subj> <pred> 5 .
+<subj> <pred> <emo> .
+<subj> <pred> true .
+<subj> <pred> "hui" .
+<subj> <pred> false .

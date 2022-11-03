@@ -1,0 +1,2 @@
+SELECT fooTest AS a
+PRINT a;

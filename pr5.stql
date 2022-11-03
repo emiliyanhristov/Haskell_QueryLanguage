@@ -1,0 +1,10 @@
+SELECT foo AS c
+WHERE c$object IS NOT BETWEEN (0, 99) AS a
+UPDATE a$predicate TO "http://www.cw.org/problem5/#inRange"
+UPDATE a$object TO false
+WHERE c$object IS BETWEEN (0, 99) AS b
+CLONE b AS d
+UPDATE b$predicate TO "http://www.cw.org/problem5/#inRange"
+UPDATE b$object TO true
+UPDATE d$object +1
+PRINT a, b, d;
